@@ -1,4 +1,5 @@
 ---
+title: Check Remote Server
 parent: Checks
 ---
 
