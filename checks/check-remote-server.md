@@ -1,4 +1,5 @@
 ---
+layout: share
 title: Check Remote Server
 parent: Checks
 version: 1
