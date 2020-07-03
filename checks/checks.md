@@ -4,7 +4,7 @@ has_children: true
 permalink: /checks/
 ---
 
-# Checks
+## Checks
 
 Checks are defined in the `[dbo].[sqlwatch_config_check]` table. 
 Code samples in this section must comply with the `check_query` requirement to always return a single numerical value in the `@output` variable. 
