@@ -7,6 +7,8 @@ date: 2020-07-03
 tested_on: 3.x
 ---
 
+Description
+
 ```sql
 BEGIN TRY
   EXEC master.sys.sp_executesql N'EXEC sp_testlinkedserver N''SQLWATCH-TEST-1'';';
@@ -18,3 +20,4 @@ END CATCH
 
 SELECT @output
 ```
+
