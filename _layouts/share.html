@@ -96,10 +96,10 @@
         {% endif %}
       {% endunless %}
       <div id="main-content" class="main-content" role="main">
+        <h2>{{ page.title }}</h2>
         {% if site.heading_anchors != false %}
           {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" %}
         {% else %}
-        <h2>{{ page.title }}</h2>
           {{ content }}
         {% endif %}
        
