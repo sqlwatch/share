@@ -15,7 +15,7 @@ BEGIN TRY
   SELECT @output = 1
 END TRY
 BEGIN CATCH
-	SELECT @output = 0
+  SELECT @output = 0
 END CATCH
 
 SELECT @output
