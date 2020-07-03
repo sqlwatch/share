@@ -21,3 +21,4 @@ END CATCH
 SELECT @output
 ```
 
+Set the threshold to alert when the `@output` is not 1: `[check_threshold_critical] = <>'1'`
