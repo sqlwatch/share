@@ -4,11 +4,13 @@ has_children: true
 permalink: /checks/
 ---
 
+# Checks
+
 Checks are defined in the `[dbo].[sqlwatch_config_check]` table. 
 Code samples in this section must comply with the `check_query` requirement to always return a single numerical value in the `@output` variable. 
 Thresholds can be set per individual requirements.
 
-For example, a check for CPU utilisation: 
+For example, a check for CPU utilisation, will always return the `@output` variable which will be compared to the set thresholds.
 
 ```sql
 select @output=avg(pc.cntr_value_calculated)
@@ -21,7 +23,5 @@ where mpc.sql_instance = @@SERVERNAME
   and counter_name = 'Processor Time %'
 and snapshot_time > '{LAST_CHECK_DATE}'
 ```
-
-Will always return the `@output` variable which will be compared to the set thresholds.
 
 To raise Warning when the CPU utilisation is above 60%, we will set the treshold to `[check_threshold_warning] = '>60'`. And to raise an Error (Critical) when it reaches 80%, we can set the critical treshold to: `[check_threshold_critical] = '>80'`
