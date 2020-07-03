@@ -2,7 +2,7 @@
 layout: page
 title: "Home"
 permalink: /
-nav_order: 1
+nav_exclude: true
 ---
 
 ## Welcome to GitHub Pages
