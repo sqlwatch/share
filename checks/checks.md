@@ -24,4 +24,4 @@ and snapshot_time > '{LAST_CHECK_DATE}'
 
 Will always return the `@output` variable which will be compared to the set thresholds.
 
-To raise Warning when the CPU utilisatoin is above 60%, we will set the treshold to `[check_threshold_warning] = '>60'`. And to raise an Error (Critical) when it reaches 80%, we can set the critical treshold to: `[check_threshold_critical] = '>80'`
+To raise Warning when the CPU utilisation is above 60%, we will set the treshold to `[check_threshold_warning] = '>60'`. And to raise an Error (Critical) when it reaches 80%, we can set the critical treshold to: `[check_threshold_critical] = '>80'`
