@@ -1,5 +1,6 @@
 ---
-title: SQLWATCH Share
+title: SQLWATCH
+permalink: /
 ---
 
 ## SQLWATCH Share Portal
