@@ -2,4 +2,4 @@ remote_theme: pmarsceill/just-the-docs
 
 # Footer content 
 # appears at the bottom of every page's main content
-footer_content: "SQLWATCH Share portal is maintained by @marcingminski. Some content submitted by contributors. All content is under MIT license. <p><img src='https://hitcounter.pythonanywhere.com/count/tag.svg' alt='Hits'></p>"
+footer_content: "SQLWATCH Share portal is maintained by <a href='https://github.com/marcingminski/'>@marcingminski</a>. Some content submitted by contributors. All content is under MIT license. <p><img src='https://hitcounter.pythonanywhere.com/count/tag.svg' alt='Hits'></p>"
