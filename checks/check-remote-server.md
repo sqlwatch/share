@@ -2,7 +2,7 @@
 layout: share
 title: Check Remote Server
 parent: Checks
-version: 1
+version: 1.0
 date: 2020-07-03
 tested_on: 3.x
 ---
