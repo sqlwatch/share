@@ -102,9 +102,11 @@
           {{ content }}
         {% endif %}
        
-         <p>Version: {{ page.version }}<br>
-         Tested On: {{ page.tested_on }}<br>
-         Date: {{ page.date }}</p>
+         <p>
+            Version: {{ page.version }}<br>
+            Date: {{ page.date }}           
+            Tested On: {{ page.tested_on }}<br>
+          </p>
 
         {% if page.has_children == true and page.has_toc != false %}
           <hr>
