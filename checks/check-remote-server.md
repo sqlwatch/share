@@ -7,7 +7,7 @@ date: 2020-07-03
 tested_on: 3.x
 ---
 
-Description
+Check remote server availability using `sp_testlinkedserver`
 
 ```sql
 BEGIN TRY
