@@ -1,3 +1,7 @@
+---
+parent: Checks
+---
+
 ```sql
 BEGIN TRY
   EXEC master.sys.sp_executesql N'EXEC sp_testlinkedserver N''SQLWATCH-TEST-1'';';
