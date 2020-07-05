@@ -12,7 +12,7 @@ Thresholds can be set per individual requirements.
 
 For example, a check for CPU utilisation, will always return the `@output` variable which will be compared to the set thresholds.
 
-```sql
+```
 select @output=avg(pc.cntr_value_calculated)
 from [dbo].[sqlwatch_logger_perf_os_performance_counters] pc
 inner join [dbo].[sqlwatch_meta_performance_counter] mpc
